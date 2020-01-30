@@ -1341,9 +1341,15 @@ h3 {
 }
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
-/* .slider_bg_2 {
-  background-image: url(../banner_2.png);
-} */
+
+.slider_bg_1 {
+  background-image: url(../assets/img/banner.png);
+}
+
+/* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
+.slider_bg_2 {
+  background-image: url(../assets/img/banner_2.png);
+}
 
 /* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_area .single_slider {
