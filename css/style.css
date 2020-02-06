@@ -858,7 +858,9 @@ h3 {
 .header-area .main-header-area {
   padding: 18px 0;
   background: #fff;
-  background: transparent;
+  /* Change nav bar here */
+  /* background: #2C2C2C; */
+  background-color:rgba(44,44,44,0.8);
 }
 
 /* line 21, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1343,12 +1345,20 @@ h3 {
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-  background-image: url(../assets/img/banner.png);
+  background-image: url(../assets/img/money.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../assets/img/banner_2.png);
+  background-image: url(../assets/img/minimal.jpg);
+}
+
+.slider_bg_3 {
+  background-image: url(../assets/img/urban.jpg);
+}
+
+.slider_bg_4 {
+  background-image: url(../assets/img/above.jpg);
 }
 
 /* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
