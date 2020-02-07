@@ -860,7 +860,7 @@ h3 {
   background: #fff;
   /* Change nav bar here */
   /* background: #2C2C2C; */
-  background-color:rgba(44,44,44,0.8);
+  background-color:rgba(255,255,255,.6);
 }
 
 /* line 21, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1054,7 +1054,7 @@ h3 {
 
 /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: rgba(44, 44, 44);
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1204,7 +1204,8 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
-  background: #2C2C2C;
+  /* nav bar sticky here */
+  background: rgb(255,255,255,0.9);
 }
 
 @media (max-width: 767px) {
