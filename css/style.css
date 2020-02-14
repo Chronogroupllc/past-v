@@ -24,7 +24,49 @@ html, body {
    margin-top: -4rem;
 }
 
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+   height: 2rem;
+}
+.navbar {
+   padding: .7rem 1rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: .1rem;
+   font-size: .9rem;
+   transition: background-color .5s ease;
+}
+.navbar-nav li {
+   padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+   color: white;
+   padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+   color: #1EBBA3;
+}
+.custom-toggler-icon {
+   color: white;
+   font-size: 1.6rem;
+}
+.navbar.solid,
+.navbar.solid-toggle {
+   background: rgba(0, 0, 0, .7)!important;
+   transition: background-color 1s ease;
+}
 
+/*-- Remove Button Outline --*/
+button:focus, a:focus {
+   outline: 0;
+   -webkit-appearance: none;
+   box-shadow: none;
+   transition: all .6s ease;
+}
+button, a, a.btn {
+   transition: all .6s ease;
+}
 
 
 /* OG BOILER */
