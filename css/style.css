@@ -1,4 +1,34 @@
-body {
+/*============= RESETS =============*/
+
+/*-- iPhone X Remove Gutters for non rect devices --*/
+html {
+   padding: env(safe-area-inset);
+}
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html, body {
+   overflow-x: hidden;
+   font-family: 'Lato', sans-serif;
+   color: #505962;
+}
+
+/* color scheme to match with logo */
+.text-chrono {
+   color: #1EBBA3;
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+   content: "";
+   height: 4rem;
+   display: block;
+   margin-top: -4rem;
+}
+
+
+
+
+/* OG BOILER */
+/* body {
   text-align: center;
   color:#fff;
 }
@@ -15,4 +45,4 @@ body {
 .about {
   height: 100vh;
   background-color: #D5F2E3;
-}
+} */
