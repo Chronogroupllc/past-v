@@ -13,7 +13,8 @@ html, body {
 
 /* color scheme to match with logo */
 .text-chrono {
-   color: #1EBBA3;
+   /* color: #1EBBA3; */
+   color: #1A6EB2;
 }
 
 /*--- Nav Scrolling Offset --*/
@@ -24,9 +25,22 @@ html, body {
    margin-top: -4rem;
 }
 
+
+/* ============ SECTION LEADS GENERAL =========== */
+#home {
+  height: 100vh;
+  background-color: #CE3635;
+}
+
+#about {
+  height: 100vh;
+  background-color: #D5F2E3;
+}
+
+
 /*============= NAVIGATION =============*/
 .navbar-brand img {
-   height: 2rem;
+   height: 4rem;
 }
 .navbar {
    padding: .7rem 1rem;
@@ -45,7 +59,7 @@ html, body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-   color: #1EBBA3;
+   color: #1A6EB2;
 }
 .custom-toggler-icon {
    color: white;
@@ -53,18 +67,20 @@ html, body {
 }
 .navbar.solid,
 .navbar.solid-toggle {
+  /* mobile navbar toggle hamburger transition HERE */
    background: rgba(0, 0, 0, .7)!important;
    transition: background-color 1s ease;
 }
 
 /*-- Remove Button Outline --*/
-button:focus, a:focus {
+button:focus, a:focus, a.btn:focus {
    outline: 0;
    -webkit-appearance: none;
    box-shadow: none;
    transition: all .6s ease;
 }
-button, a, a.btn {
+button, a, a.btn,
+.svg-inline--fa {
    transition: all .6s ease;
 }
 
