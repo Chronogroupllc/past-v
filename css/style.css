@@ -393,6 +393,9 @@ blockquote .svg-inline--fa {
 .clients-hr {
    border-top: .1rem solid #1A6EB2;
 }
+.lead {
+  padding: 0 2rem;
+}
 
 /*============= CONTACT SECTION =============*/
 
