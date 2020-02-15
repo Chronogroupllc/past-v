@@ -58,14 +58,14 @@ html, body {
    color: #1A6EB2;
 }
 .custom-toggler-icon {
-   color: white;
+   color: #1A6EB2;
    font-size: 1.6rem;
 }
 .navbar.solid,
 .navbar.solid-toggle {
   /* mobile navbar toggle hamburger transition HERE */
-   background: rgba(0, 0, 0, .7)!important;
-   transition: background-color 1s ease;
+   background: rgba(0, 0, 0, .9)!important;
+   transition: background-color 2s ease;
 }
 
 /*-- Remove Button Outline --*/
