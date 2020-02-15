@@ -108,6 +108,7 @@ button, a, a.btn,
    position: fixed;
    min-height:100%;
    min-width:100%;
+   rgba(0, 0, 0, 1);
    background-size: cover;
    background-position: center center;
    -webkit-transform: translateZ(0);
@@ -138,7 +139,7 @@ button, a, a.btn,
 .caption a {
   pointer-events: none;
   cursor: default;
-  color: white; 
+  color: white;
 }
 .typewriterr{
   height: 100vh;
