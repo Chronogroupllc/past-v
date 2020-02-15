@@ -1,604 +1,392 @@
 <!doctype html>
-<html>
-<head>
-
-    <!-- Meta General -->
+<html lang="en">
+  <head>
+    <!-- META TAGS START -->
+    <!-- Required Metas -->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
 
-    <!-- favicon  -->
-  <title>Chrono Group</title>
-  <link rel="icon" href="assets/logo/simple.png" sizes="any" type="image/PNG">
-
-  <!-- Meta Specific + SEO -->
-  <meta property="og:image" content="assets/logo/long.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chronogrp.com/" />
-  <meta property="og:title" content="Chrono Group" />
-  <meta property="og:author" content="Chrono Group">
-  <meta property="og:description"
-    content="Empowering businesses with the knowledge and tools needed to thrive in a modern world"
-  />
+    <!-- META TAGS END -->
 
 
+    <title>Chrono Group</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/logo/simple.png" sizes="any" type="image/PNG">
 
+    <!--==== HTML CSS SRC FILES STARTS ====-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slicknav.css">
+    <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- css w built in dump code -->
+    <link rel="stylesheet" href="css/plugins.css">
 
-</head>
+    <!-- Google Fonts https://fonts.google.com/ -->
 
-<body>
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-          <div class="header-top_area d-none d-lg-block">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-xl-5 col-md-5 ">
-                          <div class="header_left">
-                              <p>Get a Free Consultation by End of Today!</p>
-                          </div>
-                      </div>
-                      <div class="col-xl-7 col-md-7">
-                          <div class="header_right d-flex">
-                                  <div class="short_contact_list">
-                                          <ul>
-                                              <li><a href="#"> <i class="fa fa-envelope"></i> contact@chronogrp.com</a></li>
-                                              <li><a href="#"> <i class="fa fa-phone"></i> +1 917 727 5506</a></li>
-                                          </ul>
-                                      </div>
-                                      <div class="social_media_links">
-                                          <a href="#">
-                                              <i class="fa fa-linkedin"></i>
-                                          </a>
-                                          <a href="#">
-                                              <i class="fa fa-facebook"></i>
-                                          </a>
-                                          <a href="https://www.instagram.com/chrono_grp/">
-                                              <i class="fa fa-instagram"></i>
-                                          </a>
-                                      </div>
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
 
 
-                          </div>
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-                      </div>
-                  </div>
-              </div>
-          </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-2">
-                                <div class="logo">
-                                    <a href="index.html">
-                                      <!-- LOGO -->
-                                        <img class="logo" src="assets/logo/long.svg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                          <!-- NAV BAR ITEMS -->
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="#mission">Mission</a></li>
-                                            <li><a href="#services">Services</a></li>
-                                            <li><a href="#story">Story</a></li>
-                                            <li><a href="#contact">Contact</a></li>
+  <!--==== HTML CSS SRC FILES ENDS ====-->
+	<!-- jQuery https://code.jquery.com/ -->
+  <!-- Keep jQuery in head tag bc we need this to load nav bar -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="Appointment">
-                                    <!-- <div class="book_btn d-none d-lg-block">
-                                        <a  href="#">Get in Touch</a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header-end -->
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- HOME SECTION START -->
+    <section id="home">
+      <div class="">
+        <!-- Navigation -->
+      			<nav class="navbar navbar-expand-lg fixed-top">
+      			<div class="container-fluid">
+      				<a href="#home" class="navbar-brand"><img src="assets/logo/long.svg" alt=""></a>
+      				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+      				</button>
 
-    <!-- LANDING PAGE START -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
+      				<div class="collapse navbar-collapse" id="navbarResponsive">
+      					<ul class="navbar-nav ml-auto">
+      						<li class="nav-item">
+      							<a href="#home" class="nav-link">Home</a>
+      						</li>
+      						<li class="nav-item">
+      							<a href="#services" class="nav-link">Services</a>
+      						</li>
+                  <li class="nav-item">
+      							<a href="#pricing" class="nav-link">Packages</a>
+      						</li>
+                  <li class="nav-item">
+      							<a href="#contact" class="nav-link">Contact</a>
+      						</li>
 
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
-                <!-- <video  playsinline autoplay loop muted poster="" class="videoInsert d-flex align-items-center" >
-                  <source src="mood.mp4" type="video/mp4">
-                </video> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3>
-                                  Your success is our business
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      					</ul>
+      				</div>
 
-            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2">
-                <!-- <video  playsinline autoplay loop muted poster="" class="videoInsert d-flex align-items-center" >
-                  <source src="mood.mp4" type="video/mp4">
-                </video> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3>
-                                  Customer centric Design
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      			</div>
+      		</nav>
+      	<!-- End Navigation -->
 
-            <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2">
-                <!-- <video  playsinline autoplay loop muted poster="" class="videoInsert d-flex align-items-center" >
-                  <source src="mood.mp4" type="video/mp4">
-                </video> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3>
-                                  Cultivate brand awareness
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Start Landing Page Image -->
+    		<div class="landing">
+    			<div class="home-wrap">
+    				<!-- <div class="home-inner"></div> -->
+            <video id="videoBG" class="home-inner"  poster="assets/poster.png"  preload="metadata" autoplay muted loop>
+              <source src="assets/people.mp4#t=2" type="video/mp4">
+            </video>
+    			</div>
+          <div class="header-overlay"></div>
+    		</div>
+    		<!-- End Landing Page Image -->
 
-            <div class="single_slider  d-flex align-items-center slider_bg_4 overlay2">
-                <!-- <video  playsinline autoplay loop muted poster="" class="videoInsert d-flex align-items-center" >
-                  <source src="mood.mp4" type="video/mp4">
-                </video> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3>
-                                  Reach market potential
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Start Landing Page Caption -->
+    		<div class="caption text-center text-light text-uppercase">
 
+    			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Welcome to <span class="text-chrono">Chrono</span></h1>
+    			<!-- <h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">Animated Bootstrap akjheme</h3> -->
+          <h3>
+            <a href="" class="typewrite os-animation" data-animation="fadeInUp" data-delay=".8s" data-period="2000" data-type='[ "Your success is our business.", "Customer Centric Design.", "Cultivate Brand Awareness.", "Reach Market Potential." ]'>
+              <!-- '[ "Your Success is Our Business", "Customer Centric Design", Cultivate Brand Awareness", "Reach Market Potential" ]'> -->
+              <span class="wrap"></span>
+            </a>
+          </h3>
 
-        </div>
-    </div>
-    <!-- LANDING PAGE END -->
+          <!-- <a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a> -->
 
-    <!-- MISSION START -->
-    <div class="service_area" id="mission">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>Our Mission</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial_area overlay ">
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-12">
-                  <div class="testmonial_active owl-carousel">
-                      <div class="single_carousel">
-                              <div class="single_testmonial text-center">
-                                      <div class="quote">
-                                          <img src="quote.svg" class alt="">
-                                      </div>
-                                      <br>
-                                      <h1>
-                                        Empowering businesses with the knowledge and tools needed to thrive in a modern world
-                                      </h1>
-                                      <div class="testmonial_author">
-                                          <div class="thumb">
-                                                  <img src="img/case/testmonial.png" alt="">
-                                          </div>
-                                          <h3>- Chrono Group</h3>
-                                      </div>
-                                  </div>
-                      </div>
+    		</div>
+    		<!-- End Landing Page Caption -->
 
-                  </div>
-              </div>
-          </div>
+    		<!-- Start Bouncing Down Arrow -->
+    		<a href="#about" class="down-arrow text-center">
+    			<div class="arrow d-none d-md-block">
+    				<i class="fas fa-angle-down"></i>
+    			</div>
+    		</a>
+    		<!-- End Bouncing Down Arrow -->
       </div>
-    </div>
-    <!-- MISSION END -->
+    </section>
+    <!-- HOME SECTION END -->
 
-    <!-- WHAT WE OFFER START-->
-    <div class="service_area" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>What We Offer</h3>
-                    </div>
-                </div>
-            </div>
+    <!-- Start Features Section -->
+  	<section id="services" class="offset">
 
-            <div class="row">
+  		<!-- Start Theme Heading -->
+  		<div class="row text-center py-4 os-animation justify-content-center" data-animation="fadeInUp">
+  			<div class="col-11 col-md-10 col-lg-9">
+  				<h1>Our Mission</h1>
+  				<p class="lead">Empowering businesses with the knowledge and tools needed to thrive in a modern world</p>
+  				<a href="#contact" class="btn btn-secondary btn-sm">Request A Quote</a>
+  				<!-- <a href="#packages" class="btn btn-nuno btn-sm">See Our Packages</a> -->
+  			</div>
+  		</div>
+  		<!-- End Theme Heading -->
 
+  		<!-- Start Jumbotron -->
+  		<div class="jumbotron m-0 py-5">
 
-                <div class="col-xl-4 col-md 4 col-lg-4">
-                    <div class="single_service text-center">
-                            <!-- <img src="media/laptop.svg" alt=""> -->
-                            <!-- <span src="media/laptop.svg" class="icon icon-bike"></span> -->
-                            <!-- <i href="media/laptop.png" class="iconbtn"></i> -->
-                            <!-- <link rel="icon" type="image/png" href="media/laptop.png" sizes="32x32"> -->
-                            <a href="#">
-                                <i class="fa fa-laptop"></i>
-                            </a>
-                        <h3><b>Web Development</b></h3>
-                        <p>
-                          Stand out with professionally built, visually appealing and customer centric websites and mobile applications
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 col-lg-4">
-                    <div class="single_service text-center">
-                            <img src="media/social.svg" alt="">
-                        <h3>Social Media</h3>
-                        <p>
-                          Build your brand and gain recognition by unlocking the full powers of social media to reach new audiences
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 col-lg-4">
-                    <div class="single_service text-center">
-                            <img src="media/target.svg" alt="">
-                        <h3>Targeted Marketing</h3>
-                        <p>
-                          Engage with customers through unique, well-orchestrated content campaigns
-                        </p>
-                    </div>
-                </div>
-                <!-- <div class="col-xl-6 col-md-6 col-lg-6">
-                    <div class="single_service text-center">
-                            <img src="media/brand.svg" alt="">
-                        <h3>Brand Strategy</h3>
-                        <p>
-                          Remain relevant in today’s competitive marketplace by aligning your business with latest trends and customer demands
-                        </p>
-                    </div>
-                </div> -->
+  			<div class="col-12 os-animation" data-animation="fadeInUp">
+  				<h3 class="heading">Services</h3>
+  				<div class="heading-underline"></div>
+  			</div>
 
-            </div>
-        </div>
-    </div>
-    <!-- WHAT WE OFFER END-->
+  			<div class="container">
+  				<div class="row text-center px-lg-4 px-xl-5">
 
-    <!-- about_info_area start  -->
-  <div class="about_info_area">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-xl-6 col-lg-6">
-                  <div class="about_text">
-                      <h3>Why choose us?</h3>
-                      <p>
-                        Chrono Group was built for the betterment of the <b>small business</b> landscape. We understand your business might have a tight budget, so we offer our <b>high quality</b> services at the <b>lowest price</b> point.
-                        </p>
-                        <!-- <ul>
-                          <li>Vision</li>
-                          <li>Talent</li>
-                          <li>Value</li>
-                        </ul> -->
-                          <!-- <a href="#" class="boxed-btn3">About Us</a> -->
-                  </div>
-              </div>
-              <div class="col-xl-6 col-lg-6">
-                  <div class="about_thumb">
-                      <img src="assets/img/minimal.jpg" alt="">
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- /about_info_area end  -->
+  					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+  						<div class="feature px-2">
+  							<span class="fa-stack fa-2x">
+  								<i class="fas fa-circle fa-stack-2x"></i>
+  								<i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+  							</span>
+  							<h3>Web Development</h3>
+  							<p class="lead">Stand out with professionally built and visually appealing websites and mobile applications.</p>
+  						</div>
+  					</div>
 
-    <!-- WHY CHOOSE US START-->
-    <!-- <div class="service_area" id="story">
-        <div class="container">
-          <div class="row">
-              <div class="col-xl-12">
-                  <div class="section_title text-center mb-50">
-                      <h3>Why Choose Us</h3>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-					<div class="col-md-4">
-						<div class="single-defination">
-							<h4 class="mb-20">Purpose</h4>
-							<p>
-                Our mission was launched when a team of friends from across the technology and business industries came together and realized that while many small businesses in their local community had remarkable products, they lacked the digital infrastructure and marketing expertise to compete with national chains and online competitors.
-              </p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="single-defination">
-							<h4 class="mb-20">Exprience</h4>
-							<p>
-                Chrono Group has extensive experience providing website creation, social media and marketing services for small businesses. Our advisors are sourced from diverse backgrounds spanning entrepreneurship, technology, engineering, design, finance and marketing.
-              </p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="single-defination">
-							<h4 class="mb-20">Empathy</h4>
-              <p>
-                Chrono Group was built for the betterment of the small business landscape. We understand your business might have a tight budget, so we offer our high quality services at the lowest possible price point.
-              </p>
-						</div>
-					</div>
-				</div>
-      </div>
-    </div> -->
-    <!-- WHAT CHOOSE US END-->
+            <div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+  						<div class="feature px-2">
+  							<span class="fa-stack fa-2x">
+  								<i class="fas fa-circle fa-stack-2x"></i>
+  								<i class="fas fa-user-alt fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+  							</span>
+  							<h3>Social Media</h3>
+  							<p class="lead">Build your brand by unlocking the full powers of social media to reach new audiences.</p>
+  						</div>
+  					</div>
 
-    <!-- accordion  -->
-    <div class="accordion_area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="accordion_thumb">
-                            <img src="assets/img/grandma.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="faq_ask">
-                            <h3>Frequently ask</h3>
-                                <div id="accordion">
-                                        <div class="card">
-                                            <div class="card-header" id="headingTwo">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                            Is it effective?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
-                                                <div class="card-body">Our services are garunteed to get you more clicks and visits on your website and social media.
+  					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+  						<div class="feature px-2">
+  							<span class="fa-stack fa-2x">
+  								<i class="fas fa-circle fa-stack-2x"></i>
+  								<i class="fas fa-funnel-dollar fa-stack-1x fa-inverse" data-fa-transform="shrink-3.5 right-1"></i>
+                  <!-- <i class="fas fa-funnel-dollar"></i> -->
+  							</span>
+  							<h3>Targeted Marketing</h3>
+  							<p class="lead">Engage with customers through unique, well-orchestrated content campaigns</p>
+  						</div>
+  					</div>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                            Who are providing the services?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                                <div class="card-body">Our advisors are sourced from diverse backgrounds spanning entrepreneurship, technology, engineering, design, finance and marketing.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header" id="headingThree">
-                                                <h5 class="mb-0">
-                                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            How much will it cost?
-                                                    </button>
-                                                </h5>
-                                            </div>
-                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
-                                                <div class="card-body">We understand your business might have a tight budget, so we offer our high quality services at the lowest possible price point.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- accordion  -->
+  				</div> <!-- End Row -->
+  			</div> <!-- End Container-->
+
+  		</div> <!-- End Jumbotron -->
+
+  		<!-- Start Fixed BG IMG Dark -->
+  		<div class="fixed">
+
+  			<div class="row dark text-light text-center">
+
+  				<div class="col-12 os-animation" data-animation="fadeInUp">
+  					<h3 class="heading">We Account For</h3>
+  					<div class="heading-underline"></div>
+  				</div>
+
+  				<div class="col-md-4 os-animation" data-animation="fadeInLeft">
+  					<h3>Small Business</h3>
+  					<div class="feature py-2">
+  						<span class="fa-layers fa-3x">
+  							<i class="fas fa-store-alt"></i>
+  						</span>
+  					</div>
+  					<p class="lead"> We guarantee quality, results-driven work.</p>
+  				</div>
+
+  				<div class="col-md-4 os-animation" data-animation="fadeInUp">
+  					<h3>Tight Budget</h3>
+  					<div class="feature py-2">
+  						<span class="fa-layers fa-3x">
+  							<i class="fas fa-dollar-sign"></i>
+  						</span>
+  					</div>
+  					<p class="lead">Our prices are considerate and negotiable.</p>
+  				</div>
+
+  				<div class="col-md-4 os-animation" data-animation="fadeInRight">
+  					<h3>Growing Presence</h3>
+  					<div class="feature py-2">
+  						<span class="fa-layers fa-3x">
+  							<i class="fab fa-google"></i>
+  						</span>
+  					</div>
+  					<p class="lead">We understand the need for better SEO.</p>
+  				</div>
+
+  			</div><!-- End Row Dark -->
+  			<div class="fixed-wrap">
+  				<div class="fixed-dark"></div>
+  			</div>
+  		</div>
+  		<!-- End Fixed BG IMG Dark -->
+
+  	</section>
+  	<!-- End of Features Section -->
+
+    <!-- Start Pricing Section -->
+  	<div id="pricing" class="offset">
+
+  		<div class="jumbotron mb-0">
+  			<div class="container py-2">
+
+  				<div class="os-animation" data-animation="fadeInUp">
+  					<h3 class="heading">Packages</h3>
+  					<div class="heading-underline"></div>
+  				</div>
+
+  				<div class="row justify-content-center text-center px-lg-4 px-xl-5">
+
+  					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInLeft">
+  						<div class="pricing-column">
+  							<h3 class="border-bottom py-2 mx-3">BASIC</h3>
+  							<p class="lead py-2">The Basic Plan, the best plan to get you started off.</p>
+  							<h4 class="pb-2">Web Pages: 4</h4>
+  							<h4 class="pb-2">Social Media Photography: 1</h4>
+  							<h4>Marketing Reach: 0</h4>
+  							<!-- <h1 class="py-3">$49</h1> -->
+  							<a href="#contact" class="btn btn-secondary btn-sm">Let's Talk</a>
+  						</div>
+  					</div>
+
+  					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInUp">
+  						<div class="pricing-column">
+  							<div class="ribbon">Best Value</div>
+  							<h3 class="border-bottom py-2 mx-3 text-nuno font-weight-bold">PRO</h3>
+  							<p class="lead py-2">The Pro Plan, the best overall value you can get.</p>
+  							<h4 class="pb-2">Web Pages: 7-10</h4>
+  							<h4 class="pb-2">Social Media Photography: 5</h4>
+  							<h4>Marketing Reach: 1k</h4>
+  							<!-- <h1 class="py-3">$99</h1> -->
+  							<a href="#contact" class="btn btn-nuno btn-sm">Let's Talk</a>
+  						</div>
+  					</div>
+
+  					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInRight">
+  						<div class="pricing-column">
+  							<h3 class="border-bottom py-2 mx-3">PREMIUM</h3>
+  							<p class="lead py-2">Go Premium if you need a little extra space.</p>
+  							<h4 class="pb-2">Web Pages: 10+</h4>
+  							<h4 class="pb-2">Social Media Photography: 12</h4>
+  							<h4>Marketing Reach: 20k</h4>
+  							<!-- <h1 class="py-3">$149</h1> -->
+  							<a href="#contact" class="btn btn-secondary btn-sm">Let's Talk</a>
+  						</div>
+  					</div>
+
+  				</div> <!-- End Row -->
+
+  			</div> <!-- End Container -->
+  		</div> <!-- End Jumbotron-->
+
+  	</div>
+  	<!-- End of Pricing Section -->
 
 
-    <div class="contact_form_quote" id="contact">
+    <!-- Start Contact Section -->
+  	<div id="contact" class="offset">
 
-        <div class="container">
-          <div class="row">
-              <div class="col-xl-12">
-                  <div class="section_title text-center mb-50">
-                      <br><br><br>
-                  </div>
-              </div>
-          </div>
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="form_wrap">
-                            <h3>Get In Touch</h3>
-                            <form action="contactform.php" method="post" class="contact-form">
-                                <input type="text" name="name" placeholder="Business Name" >
-                                <input type="email" name="mail" placeholder="Business Email" >
-                                <textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Message" ></textarea>
-                                <button type="submit" name="submit" class="boxed-btn3">Send</button>
-                            </form>
-                    </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1 col-lg-6">
-                    <div class="contact_thumb">
-                        <img src="assets/img/phone.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  		<div class="container-fluid footer px-0">
+  			<div class="row outer">
 
+  				<div class="container">
+  					<div class="row py-3">
 
-    <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img class="logo_footer" src="assets/logo/long.svg" alt="">
-                                </a>
-                            </div>
-                            <p>
-                                    <a href="#">Contact@chronogrp.com</a> <br>
-                                    +1 917 727 5506
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                  <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/chrono_grp/">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+  						<div class="col-md-5 px-0 pr-md-3">
+  							<img src="img/nuno.png" alt="">
+  							<p><strong>Chrono Group</strong> was built for the betterment of the small business landscape. We understand your business might have a tight budget, so we offer our high quality services at the lowest possible price point. </p>
+  							<!-- <strong>Chrono Group</strong> -->
+                <br><br><br><br>
 
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Social Media</a></li>
-                                <li><a href="#">Targeted Marketing</a></li>
-                                <li><a href="#">Brand Strategy</a></li>
-                            </ul>
+  							<!-- <p><strong>Chrono Group</strong> has extensive experience providing website creation, social media and marketing services for small businesses. Our advisors are sourced from diverse backgrounds spanning entrepreneurship, technology, engineering, design, finance and marketing. Our business model utilizes a collaborative approach, ensuring all the services we provide for your business are well-designed and well-vetter. We guarantee high quality, results-oriented work.</p> -->
+  							<strong>Contact Info</strong>
+  							<p>(917) 727-5506<br>Contact@chronogrp.com</p>
+  							<ul class="social pt-3">
+  								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+  								<!-- <li><a href=""><i class="fab fa-twitter-square"></i></a></li> -->
+  								<li><a href="https://www.instagram.com/chrono_grp/"><i class="fab fa-instagram"></i></a></li>
+  							</ul>
+  						</div> <!-- End Column -->
 
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                    Useful Links
-                            </h3>
-                            <ul>
-                                <li><a href="#mission">Our Mission</a></li>
-                                <li><a href="#services">What We Offer?</a></li>
-                                <li><a href="#story">Why Choose Us?</a></li>
-                                <li><a href="#contact">Get in Touch</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                            <div class="footer_widget">
-                                    <h3 class="footer_title">
-                                            Subscribe
-                                    </h3>
-                                    <form action="#" class="newsletter_form">
-                                        <input type="text" placeholder="Enter your mail">
-                                        <button type="submit">Subscribe</button>
-                                    </form>
-                                    <p class="newsletter_text"> &nbsp;  &nbsp; Join our newsletter!</p>
-                                </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-          <div class="container">
-              <div class="footer_border"></div>
-              <div class="row">
-                  <div class="col-xl-12">
-                      <p class="copy_right text-center">
-                          &copy; &nbsp;<script>document.write(new Date().getFullYear());</script></a>
-                          Chrono Group, LLC  &nbsp; |  &nbsp; v1.0.0
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </footer>
-    <!--/ footer end  -->
+  						<div class="col-md-7 px-0 pl-md-3">
+  							<h3>Contact Us</h3>
 
-    <!-- link that opens popup -->
+  							<form action="contact/contact.php" method="POST" id="contact-form">
+
+  								<div class="messages"></div>
+  								<div class="controls">
+
+  									<div class="form-group">
+  										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name.">
+  									</div>
+
+  									<div class="form-group">
+  										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email.">
+  									</div>
+
+  									<div class="form-group">
+  										<textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Add your message."></textarea>
+  									</div>
+
+  									<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+
+  								</div> <!-- End Controls -->
+
+  							</form> <!-- End Form -->
+
+  						</div> <!-- End Row -->
+
+  					</div> <!-- End Row -->
+  				</div> <!-- End Container -->
+
+  				<!-- <hr class="socket">
+  				&copy; Nuno Theme. -->
+
+  			</div> <!-- End Row Outer -->
+  		</div> <!-- End Container Fluid -->
+
+  	</div>
+  	<!-- End Contact Section -->
 
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/slick.min.js"></script>
+  	<!-- Top Scroll -->
+  	<a href="#home" class="top-scroll">
+  		<i class="fa fa-angle-up"></i>
+  	</a>
+  	<!-- End of Top Scroll -->
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+    <!-- SCRIPT SRC FILES START -->
+  	<!-- Plugins.js -->
+  	<script src="js/plugins.js"></script>
+  	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+  		https://github.com/imakewebthings/waypoints -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+  	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+  	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+  	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+  		http://owlcarousel2.github.io/OwlCarousel2/ -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+  		https://github.com/bfintal/Counter-Up2 -->
+  	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+  	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 
-    <script src="js/main.js"></script>
-</body>
-
+  	<!-- SCRIPT SRC FILES END -->
+  </body>
 </html>
