@@ -13,16 +13,16 @@ html, body {
 
 /* color scheme to match with logo */
 .text-chrono {
-   /* color: #1EBBA3; */
+   /* color: #1A6EB2; */
    color: #1A6EB2;
 }
 
 /*--- Nav Scrolling Offset --*/
 .offset:before {
    content: "";
-   height: 4rem;
+   height: 6rem;
    display: block;
-   margin-top: -4rem;
+   margin-top: -6rem;
 }
 
 
@@ -196,11 +196,11 @@ button, a, a.btn,
    margin: 1rem;
 }
 .btn-nuno {
-   background-color: #1EBBA3;
+   background-color: #1A6EB2;
    color: white;
 }
 .btn-nuno:hover {
-   background-color: #189582;
+   background-color: #1D3461;
    color: white;
 }
 h3.heading {
@@ -213,14 +213,14 @@ h3.heading {
 .heading-underline {
    width: 3rem;
    height: .2rem;
-   background-color: #1EBBA3;
+   background-color: #1A6EB2;
    margin: 0 auto 2rem;
 }
 .feature {
   padding-top: 2rem;
 }
 .feature span {
-   color: #1EBBA3;
+   color: #1A6EB2;
    margin-bottom: .6rem;
 }
 .feature h3 {
@@ -246,7 +246,7 @@ h3.heading {
    z-index: -9999;
 }
 .fixed-dark {
-   background-image: url('../img/fixed/apple.jpg');
+   background-image: url('../assets/fixed/apple.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -282,7 +282,7 @@ h3.heading {
    background-color: white;
    height: 100%;
    padding: 1.6rem;
-   border-top: .25rem solid #1EBBA3;
+   border-top: .25rem solid #1A6EB2;
    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
    transition: transform .7s ease;
    position: relative;
@@ -314,7 +314,7 @@ h3.heading {
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-   background-image: url('../img/fixed/office.jpg');
+   background-image: url('../assets/fixed/office.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -350,7 +350,7 @@ h3.heading {
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
-   background: #1EBBA3!important;
+   background: #1A6EB2!important;
 }
 ul.social {
    list-style: none;
@@ -363,7 +363,7 @@ ul.social li {
    padding-right: .8rem;
 }
 ul.social li a {
-   color: #1EBBA3;
+   color: #1A6EB2;
    transition: all .2s ease;
 }
 ul.social li a:hover {
@@ -388,16 +388,16 @@ ul.social li a:hover {
 }
 blockquote .svg-inline--fa {
    margin: 1rem;
-   color: #1EBBA3;
+   color: #1A6EB2;
 }
 .clients-hr {
-   border-top: .1rem solid #1EBBA3;
+   border-top: .1rem solid #1A6EB2;
 }
 
 /*============= CONTACT SECTION =============*/
 
 .footer {
-   background: url('../img/footer/footer.jpg') no-repeat;
+   background: url('../assets/footer/footer.jpg') no-repeat;
    background-size: cover;
    color: white;
    /* background-color: #505962; */
@@ -415,7 +415,7 @@ blockquote .svg-inline--fa {
    color: white;
 }
 .footer ul.social li a:hover {
-   color: #1EBBA3;
+   color: #1A6EB2;
 }
 .footer h3 {
    text-transform: uppercase;
@@ -508,13 +508,13 @@ a.top-scroll:hover {
       font-size: 2rem;
    }
    .fixed-dark {
-      background-image: url('../img/fixed/apple-mobile.jpg')
+      background-image: url('../assets/fixed/apple-mobile.jpg')
    }
    .fixed-light {
-      background-image: url('../img/fixed/office-mobile.jpg')
+      background-image: url('../assets/fixed/office-mobile.jpg')
    }
    .footer {
-      background: url('../img/footer/footer-mobile.jpg') no-repeat;
+      background: url('../assets/footer/footer-mobile.jpg') no-repeat;
    }
    .top-scroll {
       display: none!important;
