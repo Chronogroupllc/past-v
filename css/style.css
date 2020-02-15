@@ -105,10 +105,10 @@ button, a, a.btn,
 }
 .home-inner {
    /* background-image: url('../assets/computers.jpg'); */
+
    position: fixed;
    min-height:100%;
    min-width:100%;
-   rgba(0, 0, 0, 1);
    background-size: cover;
    background-position: center center;
    -webkit-transform: translateZ(0);
@@ -116,6 +116,19 @@ button, a, a.btn,
    will-change: transform;
    display: table;
 }
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  /* DARK VIDEO HERE */
+  background: rgba(0, 0, 0, 0.7);
+  opacity:0.85;
+}
+
 
 /*-- Landing Page Caption --*/
 .caption {
