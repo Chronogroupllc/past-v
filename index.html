@@ -52,7 +52,7 @@
   <body data-spy="scroll" data-target="#navbarResponsive">
     <!-- HOME SECTION START -->
     <section id="home">
-      <div class="container-fluid p-0">
+      <div class="">
         <!-- Navigation -->
       			<nav class="navbar navbar-expand-lg fixed-top">
       			<div class="container-fluid">
@@ -80,7 +80,10 @@
         <!-- Start Landing Page Image -->
     		<div class="landing">
     			<div class="home-wrap">
-    				<div class="home-inner"></div>
+    				<!-- <div class="home-inner"></div> -->
+            <video id="videoBG" class="home-inner"  poster="poster.png"  preload="metadata" autoplay muted loop>
+              <source src="assets/mood.mp4#t=2" type="video/mp4">
+            </video>
     			</div>
     		</div>
     		<!-- End Landing Page Image -->
@@ -89,8 +92,14 @@
     		<div class="caption text-center text-light text-uppercase">
 
     			<h1 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Welcome to <span class="text-chrono">Chrono</span></h1>
-    			<h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">Animated Bootstrap akjheme</h3>
-    			<a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a>
+    			<!-- <h3 class="os-animation" data-animation="fadeInUp" data-delay=".8s">Animated Bootstrap akjheme</h3> -->
+          <h3>
+            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im VipulM. Hi, Im VipulM", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+              <span class="wrap"></span>
+            </a>
+          </h3>
+
+          <a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a>
 
     		</div>
     		<!-- End Landing Page Caption -->

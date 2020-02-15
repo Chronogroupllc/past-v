@@ -104,11 +104,10 @@ button, a, a.btn,
    left: 0;
 }
 .home-inner {
-   background-image: url('../assets/computers.jpg');
-    background-color: #CE3635;
+   /* background-image: url('../assets/computers.jpg'); */
    position: fixed;
-   height: 100%;
-   width: 100%;
+   min-height:100%;
+min-width:100%;
    background-size: cover;
    background-position: center center;
    -webkit-transform: translateZ(0);
@@ -136,6 +135,17 @@ button, a, a.btn,
    text-shadow: .1rem .1rem .5rem black;
    padding-bottom: 2rem;
 }
+.typewriterr{
+  height: 100vh;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ padding:0 20px;
+ z-index:2;
+}
+
 .caption .btn-lg {
    border-width: medium;
    padding: .8rem 1.5rem;
