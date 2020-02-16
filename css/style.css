@@ -406,12 +406,13 @@ blockquote .svg-inline--fa {
    /* background-color: #505962; */
 }
 .row.outer {
-   background-color: rgba(57, 63, 70, .85);
+   /* background-color: rgba(57, 63, 70, .95); */
+   background-image: linear-gradient(to right, rgba(57, 63, 70, .5), rgba(57, 63, 70, 1));
    padding: 1rem 2rem 3rem;
 }
 .footer img {
-   height: 2rem;
-   margin: 1.5rem 0;
+   height: 4rem;
+   margin: 1rem 0;
 }
 .footer a,
 .footer ul.social li a {
