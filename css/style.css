@@ -547,6 +547,9 @@ a.top-scroll:hover {
    .landing video{
      margin-left: -170%;
    }
+   .row.outer {
+     background-image: linear-gradient(to bottom, rgba(57, 63, 70, .4), rgba(57, 63, 70, 1));
+   }
 }
 
 
