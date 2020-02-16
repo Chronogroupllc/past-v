@@ -408,7 +408,7 @@ blockquote .svg-inline--fa {
 }
 .row.outer {
    /* background-color: rgba(57, 63, 70, .95); */
-   background-image: linear-gradient(to right, rgba(57, 63, 70, .5), rgba(57, 63, 70, 1));
+   background-image: linear-gradient(to right, rgba(57, 63, 70, .4), rgba(57, 63, 70, 1));
    padding: 1rem 2rem 3rem;
 }
 .footer img {
@@ -548,7 +548,7 @@ a.top-scroll:hover {
      margin-left: -170%;
    }
    .row.outer {
-     background-image: linear-gradient(to bottom, rgba(57, 63, 70, .4), rgba(57, 63, 70, 1));
+     background-image: linear-gradient(to bottom, rgba(57, 63, 70, .3), rgba(57, 63, 70, 1));
    }
 }
 
