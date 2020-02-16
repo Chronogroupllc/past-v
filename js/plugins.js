@@ -267,3 +267,37 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+
+
+// ========= VIDEO REEL LANDING PG ==========
+
+
+var videoSource = new Array();
+videoSource[0]='video/';
+videoSource[1]='video/';
+var videoCount = videoSource.length;
+
+
+document.getElementById("myVideo").setAttribute("src",videoSource[0]);
+// Create a function to load and play the videos.
+
+function videoPlay(videoNum)
+{
+  document.getElementById("myVideo").setAttribute("src",videoSource[videoNum]);
+  document.getElementById("myVideo").load();
+  document.getElementById("myVideo").play();
+}
+
+
+document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+function myHandler() {
+  i++;
+  if(i == (videoCount-1)){
+  i = 0;
+  videoPlay(i);
+  }
+  else{
+  videoPlay(i);
+  }
+
+}
