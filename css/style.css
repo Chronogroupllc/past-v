@@ -532,12 +532,12 @@ a.top-scroll:hover {
       top: 42%;
     }
    .caption h1 {
-      font-size: 1.9rem;
+      font-size: 2rem;
       letter-spacing: .1rem;
-      padding-bottom: .4rem;
+      padding-bottom: .6rem;
    }
    .caption h3 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       padding-bottom: 1rem;
    }
    .caption .btn-lg {
@@ -545,7 +545,7 @@ a.top-scroll:hover {
       font-size: .9rem;
    }
    .landing video{
-     margin-left: -150%;
+     margin-left: -170%;
    }
 }
 
