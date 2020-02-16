@@ -120,7 +120,8 @@ button, a, a.btn,
   width:100vw;
   z-index:1;
   /* DARK VIDEO HERE */
-  background: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .8));
+  /* background: rgba(0, 0, 0, 0.8); */
   opacity:0.85;
 }
 
@@ -542,6 +543,9 @@ a.top-scroll:hover {
    .caption .btn-lg {
       padding: .4rem .9rem;
       font-size: .9rem;
+   }
+   .landing video{
+     margin-left: -150%;
    }
 }
 

@@ -272,25 +272,63 @@ var TxtType = function(el, toRotate, period) {
 // ========= VIDEO REEL LANDING PG ==========
 
 
-var videoSource = new Array();
-videoSource[0]='video/';
-videoSource[1]='video/';
-var videoCount = videoSource.length;
+// var videoSource = new Array();
+// // var i;
+// // for (i = 0; i < 8; i++) {
+// //   videoSource[i] += 'vid/' + i.toString();
+// // }
+// videoSource[0] += 'one.mp4'
+// videoSource[1] += 'vid/2.mp4'
+// var videoCount = videoSource.length;
+//
+//
+// document.getElementById("videoReel").setAttribute("src",videoSource[0]);
+// document.getElementById("videoReel").setAttribute("type","video/mp4");
+// // Create a function to load and play the videos.
+//
+// function videoPlay(videoNum)
+// {
+//   document.getElementById("videoReel").setAttribute("src",videoSource[videoNum]);
+//   document.getElementById("videoReel").load();
+//   document.getElementById("videoReel").play();
+// }
+//
+//
+// // document.getElementById('videoReel').addEventListener('ended',myHandler,false);
+// function myHandler() {
+//   i++;
+//   if(i == (videoCount-1)){
+//   i = 0;
+//   videoPlay(i);
+//   }
+//   else{
+//   videoPlay(i);
+//   }
+//
+// }
 
+
+var videoSource = new Array();
+videoSource[0]='one.mp4';
+videoSource[1]='vid/2.mp4';
+videoSource[2]='vid/2.mp4';
+var videoCount = videoSource.length;
 
 document.getElementById("myVideo").setAttribute("src",videoSource[0]);
 // Create a function to load and play the videos.
 
-function videoPlay(videoNum)
-{
-  document.getElementById("myVideo").setAttribute("src",videoSource[videoNum]);
-  document.getElementById("myVideo").load();
-  document.getElementById("myVideo").play();
-}
+    function videoPlay(videoNum)
+    {
 
+document.getElementById("myVideo").setAttribute("src",videoSource[videoNum]);
+document.getElementById("myVideo").load();
+document.getElementById("myVideo").play();
+    }
+    // videoPlay(0);
 
-document.getElementById('myVideo').addEventListener('ended',myHandler,false);
-function myHandler() {
+document.getElementById("myVideo").addEventListener('ended',myHandler,false);
+alert("The video is now playing");
+  function myHandler() {
   i++;
   if(i == (videoCount-1)){
   i = 0;
@@ -300,4 +338,4 @@ function myHandler() {
   videoPlay(i);
   }
 
-}
+         }
