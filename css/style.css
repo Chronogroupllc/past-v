@@ -99,25 +99,27 @@ button, a, a.btn,
 }
 
 .landingouter {
-  height: 100%
+  height: 100%;
 }
 
 .landinginner {
-  height: 100%
+  height: 100%;
 }
 
 .landinginner img {
   max-width:100%;
-max-height:100%;
+  max-height:100%;
 }
 
 .leftt {
   background-color: white;
-  height: 100%
+  /* height: auto; FOR MEDIA QUERY */
+  padding: 5em 0 0 2em;
+  background-color: lightblue;
 }
 
 .leftt h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   font-weight: 900;
   /* margin: 3em 0 0 1em; */
 }
