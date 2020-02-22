@@ -28,6 +28,7 @@ html, body {
 
 /* ============ SECTION LEADS GENERAL =========== */
 #home {
+  position: relative;
 }
 
 #about {
@@ -80,16 +81,55 @@ button, a, a.btn,
    transition: all .6s ease;
 }
 
+/* ============= PRACTICE EXPERIMENT */
+
+
+
 /*============= LANDING PAGE =============*/
 
 /*--- Fixed Landing Page Section --*/
 .landing {
-   position: relative;
+
    width: 100%;
    height: 100vh;
+   /* background-color:#ce3635; */
    display: table;
    z-index: -1;
+   padding-top: 6rem;
 }
+
+.landingouter {
+  height: 100%;
+}
+
+.landinginner {
+  height: 100%;
+}
+
+.landinginner img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.leftt {
+  /* height: auto; FOR MEDIA QUERY */
+  padding: 5em 0 0 2em;
+  /* background-color: lightblue; */
+}
+
+.leftt h1 {
+  font-size: 4.5em;
+  font-weight: 900;
+  /* margin: 3em 0 0 1em; */
+}
+
+.rightt {
+  /* background-color: green; */
+}
+
+
+
+
 .home-wrap {
    clip: rect(0, auto, auto, 0);
    position: absolute;
@@ -119,9 +159,7 @@ button, a, a.btn,
   left:0;
   width:100vw;
   z-index:1;
-  /* DARK VIDEO HERE */
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .75));
-  /* background: rgba(0, 0, 0, 0.8); */
   opacity:0.85;
 }
 
@@ -475,7 +513,7 @@ a.top-scroll:hover {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
    .caption h1 {
       font-size: 3.5rem;
       letter-spacing: .2rem;
@@ -489,14 +527,10 @@ a.top-scroll:hover {
       padding: .7rem 1.2rem;
       font-size: 1rem;
    }
-   /* .clients img {
-      max-width: 50%;
-      margin: 0 auto;
-   } */
-}
+} */
 
 /* Devices under 768px (md) */
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
    .caption h1 {
       font-size: 2.7rem;
       letter-spacing: .15rem;
@@ -509,25 +543,10 @@ a.top-scroll:hover {
    .caption .btn-lg {
       padding: .6rem 1.1rem;
    }
-   /* #features h1 {
-      font-size: 2rem;
-   }
-   .fixed-dark {
-      background-image: url('../assets/fixed/apple-mobile.jpg')
-   }
-   .fixed-light {
-      background-image: url('../assets/fixed/office-mobile.jpg')
-   }
-   .footer {
-      background: url('../assets/footer/footer-mobile.jpg') no-repeat;
-   }
-   .top-scroll {
-      display: none!important;
-   } */
-}
+} */
 
 /* Devices under 576px (sm) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .caption {
       top: 42%;
     }
@@ -550,7 +569,7 @@ a.top-scroll:hover {
    .row.outer {
      background-image: linear-gradient(to bottom, rgba(57, 63, 70, .3), rgba(57, 63, 70, 1));
    }
-}
+} */
 
 
 /*============ BOOTSTRAP BREAK POINTS:
