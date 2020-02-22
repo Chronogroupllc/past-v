@@ -116,6 +116,12 @@ max-height:100%;
   height: 100%
 }
 
+.leftt h1 {
+  font-size: 3em;
+  font-weight: 900;
+  /* margin: 3em 0 0 1em; */
+}
+
 .rightt {
   background-color: green;
 }
