@@ -71,7 +71,7 @@ $(document).ready(function(){ //when document(DOM) loads completely
                 items: 2 //768px width and up display 2 items
             },
             992 : {
-                items: 3 //992px width and up display 3 items
+                items: 1 //992px width and up display 3 items
             }
         }
     });

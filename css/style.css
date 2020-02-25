@@ -385,7 +385,7 @@ h3.heading {
    transition: transform .4s ease;
 }
 .card:hover {
-   transform: scale(.95);
+   transform: scale(.85);
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
