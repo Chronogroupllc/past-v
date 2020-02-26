@@ -385,18 +385,18 @@ h3.heading {
    display: flex;
 }
 .card {
-   height:0%;
+   /* height:100%; */
    border-radius: 0;
    text-align: center;
-   margin: 0 1rem;
-   border: .1rem solid rgba(0, 0, 0, .075);
-   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+   /* border: .1rem solid rgba(0, 0, 0, .075);
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075); */
+   border: none;
    transition: transform .4s ease;
-   width: 75%;
+   width: 50%;
    margin: auto;
 }
 .card:hover {
-   transform: scale(.85);
+   transform: scale(.9);
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
