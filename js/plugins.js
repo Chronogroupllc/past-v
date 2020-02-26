@@ -68,7 +68,7 @@ $(document).ready(function(){ //when document(DOM) loads completely
                 items: 1 //0px width and up display 1 item
             },
             768 : {
-                items: 2 //768px width and up display 2 items
+                items: 1 //768px width and up display 2 items
             },
             992 : {
                 items: 1 //992px width and up display 3 items

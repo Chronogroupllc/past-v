@@ -353,7 +353,7 @@ h3.heading {
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-   background-image: url('../assets/fixed/office.jpg');
+   /* background-image: url('../assets/fixed/office.jpg'); */
    position: fixed;
    height: 100%;
    width: 100%;
@@ -367,22 +367,33 @@ h3.heading {
    left: 0;
    display: table;
 }
+/* tint above img */
 .light {
    background-color: rgba(255, 255, 255, .75);
    padding: 5rem 0;
    z-index: 1000;
 }
+.details {
+  /* height: 100vh;
+  width: 100%;
+  display: table;
+  background-color: rgba(30, 30, 30, .75); */
+  padding: 0 15%;
+}
+
 .owl-stage {
    display: flex;
 }
 .card {
-   height: 100%;
+   height:0%;
    border-radius: 0;
    text-align: center;
    margin: 0 1rem;
    border: .1rem solid rgba(0, 0, 0, .075);
    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
    transition: transform .4s ease;
+   width: 75%;
+   margin: auto;
 }
 .card:hover {
    transform: scale(.85);
