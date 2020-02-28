@@ -126,12 +126,15 @@ button, a, a.btn,
 
 .leftt {
   /* height: auto; FOR MEDIA QUERY */
-  padding: 5em 0 0 2em;
+  padding: 10% 0 0 0;
   /* background-color: lightblue; */
+  /* margin: 3em 1em 0 3em; */
+  /* text-align: center; */
+
 }
 
 .leftt h1 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-weight: 900;
   /* margin: 3em 0 0 1em; */
 }
@@ -627,8 +630,8 @@ a.top-scroll:hover {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
-/* @media (max-width: 991.98px) {
-   .caption h1 {
+@media (max-width: 991.98px) {
+   /* .caption h1 {
       font-size: 3.5rem;
       letter-spacing: .2rem;
       padding-bottom: .8rem;
@@ -640,12 +643,12 @@ a.top-scroll:hover {
    .caption .btn-lg {
       padding: .7rem 1.2rem;
       font-size: 1rem;
-   }
-} */
+   } */
+}
 
 /* Devices under 768px (md) */
-/* @media (max-width: 767.98px) {
-   .caption h1 {
+@media (max-width: 767.98px) {
+   /* .caption h1 {
       font-size: 2.7rem;
       letter-spacing: .15rem;
       padding-bottom: .5rem;
@@ -656,12 +659,12 @@ a.top-scroll:hover {
    }
    .caption .btn-lg {
       padding: .6rem 1.1rem;
-   }
-} */
+   } */
+}
 
 /* Devices under 576px (sm) */
-/* @media (max-width: 575.98px) {
-    .caption {
+@media (max-width: 575.98px) {
+    /* .caption {
       top: 42%;
     }
    .caption h1 {
@@ -672,18 +675,11 @@ a.top-scroll:hover {
    .caption h3 {
       font-size: 1.3rem;
       padding-bottom: 1rem;
-   }
-   .caption .btn-lg {
-      padding: .4rem .9rem;
-      font-size: .9rem;
-   }
-   .landing video{
-     margin-left: -170%;
-   }
-   .row.outer {
-     background-image: linear-gradient(to bottom, rgba(57, 63, 70, .3), rgba(57, 63, 70, 1));
-   }
-} */
+   } */
+
+   
+
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
