@@ -354,7 +354,7 @@ h3.heading {
 /*--- Team Light Background Image --*/
 .fixed-light {
    /* background-image: url('../assets/fixed/office.jpg'); */
-   position: fixed;
+   position: absolute;
    /* height: 100%;
    width: 100%; */
    /* background-size: cover;
