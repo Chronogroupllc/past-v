@@ -34,6 +34,13 @@ html, body {
 #about {
 }
 
+#features-2{
+  position: relative;
+  width: 100%;
+
+
+}
+
 
 /*============= NAVIGATION =============*/
 .navbar-brand img {
@@ -497,13 +504,13 @@ blockquote .svg-inline--fa {
 	position: relative
 }
 
-/* form-head {
+form-head {
 	margin: 5px 0;
 	padding-bottom: 10px;
 	width: 170px;
 	color: #78788c;
 	border-bottom: 3px solid #78788c
-} */
+}
 
 .form-input  {
 	width: 100%;
