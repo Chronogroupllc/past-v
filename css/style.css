@@ -126,21 +126,21 @@ button, a, a.btn,
 
 .leftt {
   /* height: auto; FOR MEDIA QUERY */
-  padding: 10% 0 0 0;
-  /* background-color: lightblue; */
-  /* margin: 3em 1em 0 3em; */
-  /* text-align: center; */
-
+  padding-top: 10rem;
 }
 
 .leftt h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 900;
   /* margin: 3em 0 0 1em; */
 }
 
+.leftt p {
+  font-size: 1em;
+}
+
 .rightt {
-  /* background-color: green; */
+  padding-top: 3rem;
 }
 
 
@@ -644,6 +644,16 @@ a.top-scroll:hover {
       padding: .7rem 1.2rem;
       font-size: 1rem;
    } */
+   .leftt {
+     padding-top: 8rem;
+   }
+   .leftt h1 {
+     font-size: 3em;
+   }
+   .rightt {
+     margin-top: -2rem;
+     padding-top: 2.5rem;
+   }
 }
 
 /* Devices under 768px (md) */
@@ -660,6 +670,16 @@ a.top-scroll:hover {
    .caption .btn-lg {
       padding: .6rem 1.1rem;
    } */
+   .leftt {
+      padding: 3rem 3rem 0 3rem;
+   }
+   .leftt h1 {
+     font-size: 2.5em;
+   }
+   .rightt {
+     margin-top: -2rem;
+     padding-top: 2rem;
+   }
 }
 
 /* Devices under 576px (sm) */
@@ -676,8 +696,17 @@ a.top-scroll:hover {
       font-size: 1.3rem;
       padding-bottom: 1rem;
    } */
+   .leftt {
+     padding: 2rem 2rem 0 2rem;
+   }
+   .leftt h1 {
+     font-size: 2.5em;
+   }
+   .rightt {
+     margin-top: -2rem;
+     padding-top: 0;
+   }
 
-   
 
 }
 
