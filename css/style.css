@@ -483,8 +483,7 @@ blockquote .svg-inline--fa {
 
 /*--- Contact Form --*/
 
-
-.form {
+.form-custom {
 	width: 340px;
 	height: 440px;
 	background: #e6e6e6;
@@ -498,15 +497,15 @@ blockquote .svg-inline--fa {
 	position: relative
 }
 
-h2.head {
-	margin: 10px 0;
+/* form-head {
+	margin: 5px 0;
 	padding-bottom: 10px;
-	width: 180px;
+	width: 170px;
 	color: #78788c;
 	border-bottom: 3px solid #78788c
-}
+} */
 
-input {
+.form-input  {
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
@@ -519,11 +518,11 @@ input {
 	border-bottom: 2px solid #bebed2
 }
 
-input:focus {
+.form-input:focus {
 	border-bottom: 2px solid #78788c
 }
 
-p:before {
+.form-p:before {
 	content: attr(type);
 	display: block;
 	margin: 28px 0 0;
@@ -531,7 +530,7 @@ p:before {
 	color: #5a5a5a
 }
 
-button {
+.form-b {
 	float: right;
 	padding: 8px 12px;
 	margin: 8px 0 0;
@@ -543,7 +542,7 @@ button {
 	transition: all .3s
 }
 
-button:hover {
+form-b:hover {
 	background: #78788c;
 	color: #fff
 }
@@ -562,7 +561,7 @@ button:hover {
 	box-shadow: 10px 10px 40px -14px #000
 }
 
-span.peek{
+.peek{
 	margin: 0 5px 0 15px
 }
 
