@@ -7,7 +7,8 @@ html {
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 html, body {
    overflow-x: hidden;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Muli', sans-serif;
+   font-weight: 300;
    color: #505962;
 }
 
@@ -54,7 +55,7 @@ html, body {
 .navbar {
    padding: .7rem 1rem;
    text-transform: uppercase;
-   font-weight: 700;
+   font-weight: 500;
    letter-spacing: .1rem;
    font-size: .9rem;
    transition: background-color .5s ease;
@@ -703,23 +704,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
-/* OG BOILER */
-/* body {
-  text-align: center;
-  color:#fff;
-}
-
-#home {
-  height: 100vh;
-  background-color: #CE3635;
-}
-
-.one, .two {
-  background-color: #73BA9B;
-  padding: 2rem;
-}
-.about {
-  height: 100vh;
-  background-color: #D5F2E3;
-} */
