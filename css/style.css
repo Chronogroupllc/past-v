@@ -353,39 +353,55 @@ h3.heading {
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-   background-image: url('../assets/fixed/office.jpg');
-   position: fixed;
-   height: 100%;
-   width: 100%;
-   background-size: cover;
+   /* background-image: url('../assets/fixed/office.jpg'); */
+   position: absolute;
+   /* height: 100%;
+   width: 100%; */
+   /* background-size: cover;
    background-position: center center;
    -webkit-transform: translateZ(0);
    transform: translateZ(0);
-   will-change: transform;
+   will-change: transform; */
    z-index: -1;
    top: 0;
    left: 0;
    display: table;
 }
+/* tint above img */
 .light {
    background-color: rgba(255, 255, 255, .75);
    padding: 5rem 0;
    z-index: 1000;
 }
+.details {
+  /* height: 100vh;
+  width: 100%;
+  display: table;
+  background-color: rgba(30, 30, 30, .75); */
+  padding: 0 15%;
+}
+
 .owl-stage {
    display: flex;
 }
-.card {
-   height: 100%;
+.card-transparent {
+   /* height:100%; */
    border-radius: 0;
    text-align: center;
-   margin: 0 1rem;
-   border: .1rem solid rgba(0, 0, 0, .075);
-   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+   /* border: .1rem solid rgba(0, 0, 0, .075);
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075); */
+   border: none;
    transition: transform .4s ease;
+   width: 50% !important;
+   margin: auto;
+}
+
+.card-body {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .card:hover {
-   transform: scale(.95);
+   transform: scale(.9);
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
