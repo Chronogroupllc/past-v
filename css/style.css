@@ -34,11 +34,16 @@ html, body {
 #about {
 }
 
-#features-2{
+#features{
   position: relative;
   width: 100%;
 
 
+}
+
+#skills {
+  position: relative;
+  width: 100%;
 }
 
 
