@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/plugins.css">
 
     <!-- Google Fonts https://fonts.google.com/ -->
-
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,500,900&display=swap" rel="stylesheet">
 	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -51,209 +51,338 @@
   </head>
   <body data-spy="scroll" data-target="#navbarResponsive">
 
-    <!-- HOME SECTION START -->
-    <section id="home">
-      <div class="">
-        <!-- Navigation -->
-      			<nav class="navbar navbar-expand-lg fixed-top">
-      			<div class="container-fluid">
-      				<a href="#home" class="navbar-brand"><img src="assets/logo/long.png" alt=""></a>
-      				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-      					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
-      				</button>
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a href="#home" class="navbar-brand"><img src="assets/logo/long.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
 
-      				<div class="collapse navbar-collapse" id="navbarResponsive">
-      					<ul class="navbar-nav ml-auto">
-      						<li class="nav-item">
-      							<a href="#home" class="nav-link">Home</a>
-      						</li>
-      						<li class="nav-item">
-      							<a href="#services" class="nav-link">Services</a>
-      						</li>
-                  <li class="nav-item">
-      							<a href="#pricing" class="nav-link">Packages</a>
-      						</li>
-                  <li class="nav-item">
-      							<a href="#contact" class="nav-link">Contact</a>
-      						</li>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#features" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
 
-      					</ul>
-      				</div>
+            </ul>
+          </div>
 
-      			</div>
-      		</nav>
-      	<!-- End Navigation -->
+        </div>
+      </nav>
+    <!-- End Navigation -->
 
-        <!-- Start Landing Page Image -->
-    		<div class="landing">
-    			<div class="home-wrap">
-    				<!-- <div class="home-inner"></div> -->
-            <video id="videoReel" class="home-inner"  poster="assets/poster.png" preload="metadata" autoplay muted loop playsinline>
-              <source src="assets/vid/yady.webm" type="video/webm">
-              <source src="assets/vid/yady.mp4" type="video/mp4">
-            </video>
-    			</div>
-          <div class="header-overlay"></div>
-    		</div>
-    		<!-- End Landing Page Image -->
+    <!-- LANDING START -->
+    <section id="home" class="offset">
+        <div class="container landing">
+    			<div class="row landingouter">
 
-        <!-- Start Landing Page Caption -->
-    		<div class="caption text-center text-light">
+    				<div class="container-fluid">
+    					<div class="row landinginner">
 
-    			<h1 class="font-weight-bold os-animation text-uppercase" data-animation="fadeInUp" data-delay=".6s">Welcome to <span class="text-chrono">Chrono</span></h1>
+    						<div class="col-lg-5 leftt">
+                  <h1>Hone in your Digital Footprint</h1>
+                  <p class=""><strong>Chrono Group</strong> was built for the betterment of the small business landscape. We understand your business might have a tight budget, so we offer our high quality services at the lowest possible price point. </p>
+                  <!-- <strong>Chrono Group</strong> -->
+                  <br><br>
 
-          <h3>
-            <a href="" class="typewrite os-animation" data-animation="fadeInUp" data-delay=".8s" data-period="2000" data-type='[ "Your success is our business", "Customer centric design", "Cultivate brand awareness", "Reach your market potential" ]'>
-              <span class="wrap"></span>
-            </a>
-          </h3>
+    						</div> <!-- End Column -->
 
-          <!-- <a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a> -->
+    						<div class="col-lg-7 rightt">
+                  <img src="temp/phone.svg" alt="">
+    						</div> <!-- End Row -->
 
-    		</div>
-    		<!-- End Landing Page Caption -->
+    					</div> <!-- End Row -->
+    				</div> <!-- End Container -->
+    			</div> <!-- End Row Outer -->
 
-    		<!-- Start Bouncing Down Arrow -->
-    		<a href="#services" class="down-arrow text-center">
-    			<div class="arrow d-none d-md-block">
-    				<i class="fas fa-angle-down"></i>
-    			</div>
-    		</a>
-    		<!-- End Bouncing Down Arrow -->
-      </div>
+    		</div> <!-- End Container Fluid -->
     </section>
-    <!-- HOME SECTION END -->
 
-    <!-- Start Features Section -->
-  	<section id="services" class="offset">
+    <!-- LANDING SECTION END -->
 
-  		<!-- Start Theme Heading -->
-  		<div class="row text-center py-4 os-animation justify-content-center" data-animation="fadeInUp">
-  			<div class="col-11 col-md-10 col-lg-9">
-  				<h1>Our Mission</h1>
-  				<p class="lead">Empowering businesses with the knowledge and tools needed to thrive in a modern world</p>
-  				<a href="#contact" class="btn btn-secondary btn-sm">Request A Quote</a>
-  				<!-- <a href="#pricing" class="btn btn-nuno btn-sm">See Our Packages</a> -->
-  			</div>
-  		</div>
-  		<!-- End Theme Heading -->
 
-  		<!-- Start Jumbotron -->
-  		<div class="jumbotron m-0 py-5">
+    <!-- Start Team Section -->
+	<section id="team" class="offset rambo">
 
-  			<div class="col-12 os-animation" data-animation="fadeInUp">
-  				<h3 class="heading">Services</h3>
-  				<div class="heading-underline"></div>
-  			</div>
+		<!-- Start Fixed BG IMG Light -->
+		<div class="fixed">
 
-  			<div class="container">
-  				<div class="row text-center px-lg-4 px-xl-5">
 
-  					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
-  						<div class="feature px-2">
-  							<span class="fa-stack fa-2x">
-  								<i class="fas fa-circle fa-stack-2x"></i>
-  								<i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
-  							</span>
-  							<h3>Web Development</h3>
-  							<p class="lead">Stand out with professionally built and visually appealing websites and mobile applications.</p>
-  						</div>
-  					</div>
+			<div class="row light">
 
-            <div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
-  						<div class="feature px-2">
-  							<span class="fa-stack fa-2x">
-  								<i class="fas fa-circle fa-stack-2x"></i>
-  								<i class="fas fa-user-alt fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
-  							</span>
-  							<h3>Social Media</h3>
-  							<p class="lead">Build your brand by unlocking the full powers of social media to reach new audiences.</p>
-  						</div>
-  					</div>
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">How digital footprint works</h3>
+					<div class="heading-underline"></div>
+				</div>
 
-  					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
-  						<div class="feature px-2">
-  							<span class="fa-stack fa-2x">
-  								<i class="fas fa-circle fa-stack-2x"></i>
-  								<i class="fas fa-funnel-dollar fa-stack-1x fa-inverse" data-fa-transform="shrink-3.5 right-1"></i>
-                  <!-- <i class="fas fa-funnel-dollar"></i> -->
-  							</span>
-  							<h3>Targeted Marketing</h3>
-  							<p class="lead">Engage with customers through unique, well-orchestrated content campaigns</p>
-  						</div>
-  					</div>
+				<div class="container details">
+					<div class="os-animation" data-animation="fadeInUp">
+						<div id="team-carousel" class="owl-carousel owl-theme">
 
-  				</div> <!-- End Row -->
-  			</div> <!-- End Container-->
+              <div class="card-transparent">
+                <img src="assets/team/website.svg" alt="" class="card-img-top rounded-0">
+                <div class="text pt-5">
+                  <p class="">Business Website</p>
+                  <span class="">
+                    Stand out with professionally built, visually appealing and customer-centric websites and applications.
+                  </span>
+                </div>
+              </div>
 
-  		</div> <!-- End Jumbotron -->
-      </section>
+              <div class="card-transparent">
+                <img src="assets/team/social.svg" alt="" class="social card-img-top rounded-0">
+                <div class="text pt-5">
+                  <p class="">Social Handles</p>
+                  <span class="">
+                    Build your brand and gain recognition by unlocking the full powers of social media to reach new audiences.
+                  </span>
+                </div>
+              </div>
 
-    <!-- Start Contact Section -->
-  	<div id="contact" class="offset">
+              <div class="card-transparent">
+                <img src="assets/team/target.svg" alt="" class="card-img-top rounded-0">
+                <div class="text pt-5">
+                  <p class="">Targeted Marketing</p>
+                  <span class="">
+                    Engage with customers through unique, well-orchestrated content campaigns on Instagram, Facebook and Google.
+                  </span>
+                </div>
+              </div>
 
-  		<div class="container-fluid footer px-0">
-  			<div class="row outer">
 
-  				<div class="container">
-  					<div class="row py-3">
 
-  						<div class="col-md-5 px-0 pr-md-3">
-  							<img src="assets/logo/long.svg" alt="">
-  							<p><strong>Chrono Group</strong> was built for the betterment of the small business landscape. We understand your business might have a tight budget, so we offer our high quality services at the lowest possible price point. </p>
-  							<!-- <strong>Chrono Group</strong> -->
-                <br><br>
 
-  							<!-- <p><strong>Chrono Group</strong> has extensive experience providing website creation, social media and marketing services for small businesses. Our advisors are sourced from diverse backgrounds spanning entrepreneurship, technology, engineering, design, finance and marketing. Our business model utilizes a collaborative approach, ensuring all the services we provide for your business are well-designed and well-vetter. We guarantee high quality, results-oriented work.</p> -->
-  							<strong>Contact Info</strong>
-  							<p>(917) 727-5506<br>contact@chronogrp.com</p>
-  							<ul class="social pt-3">
-  								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-  								<!-- <li><a href=""><i class="fab fa-twitter-square"></i></a></li> -->
-  								<li><a href="https://www.instagram.com/chrono_grp/"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="mailto:contact@chronogrp.com?Subject=Visited%20Website%20"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-  						</div> <!-- End Column -->
+						</div> <!-- End Team Carousel -->
+					</div> <!-- End Animation -->
+				</div><!-- End Container -->
 
-  						<div class="col-md-7 px-0 pl-md-3">
-  							<h3>Contact Us</h3>
+			</div> <!-- End Row -->
 
-  							<form action="contact/contact.php" method="POST" id="contact-form">
 
-  								<div class="messages"></div>
-  								<div class="controls">
 
-  									<div class="form-group">
-  										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name.">
-  									</div>
+			<div class="">
+				<div class="fixed-light">
+          <!-- <svg width="2500" height="1500">
+            <line x1="0" y1="-100" x2="1500" y2="1800" stroke="blue" stroke-width="400" ></line>
+          </svg> -->
 
-  									<div class="form-group">
-  										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email.">
-  									</div>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L1440,192L1440,320L0,320Z"></path></svg> -->
 
-  									<div class="form-group">
-  										<textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Add your message."></textarea>
-  									</div>
+        </div>
+			</div>
+		</div>
+		<!-- End Fixed BG IMG Light -->
 
-  									<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+    <!-- TO DO
+    - feature transform
+    - svg
+    - process section
 
-  								</div> <!-- End Controls -->
 
-  							</form> <!-- End Form -->
 
-  						</div> <!-- End Row -->
+   -->
 
-  					</div> <!-- End Row -->
-  				</div> <!-- End Container -->
+	</section>
+	<!-- End Team Section -->
 
-  				<!-- <hr class="socket">
-  				&copy; Nuno Theme. -->
+  <!-- Start Features Section -->
+<div id="features" class="offset">
 
-  			</div> <!-- End Row Outer -->
-  		</div> <!-- End Container Fluid -->
+  <!-- Start Jumbotron -->
+  <div class=" m-0 py-5">
 
-  	</div>
-  	<!-- End Contact Section -->
+    <div class="col-12 os-animation" data-animation="fadeInUp">
+      <h3 class="heading">Your Brand Reimagined</h3>
+      <div class="heading-underline"></div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row px-lg-4 px-xl-5">
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class="br fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">Mobile-First</h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Scale to new heights with responsive websites and apps for all platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">SEO</h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Get proactive in gaining traffic with proven search engine optimization methodologies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fab fa-yelp fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">Positive Reviews</h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Relay past experiences to build positive consensus in peripheral conversations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class="br fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fad fa-camera-retro fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">Professional Photography </h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Present custom, copyright-free presentations on social media and marketing campaigns.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class="br fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-mouse-pointer fa-stack-1x fa-inverse"></i>
+              <!-- <i class="fas "></i> -->
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">Inbound Links </h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Retain insightful user data from cookies to time spent in websites to use for specific campaigns.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 os-animation" data-animation="fadeInDown">
+          <div class="feature card-body p-5 my-4 mx-2 shadow-lg">
+            <span class=" fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-filter fa-stack-1x fa-inverse"></i>
+              <!-- <i class="fas fa-filter"></i> -->
+
+            </span>
+            <div class="px-2">
+              <h4 class="py-4">Funnel Campaigns</h4>
+              <!-- <h5 class="text-nuno">CEO</h5> -->
+              <p class="">
+                Reach select audiences with high conversions rates interested in business services / products.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div> <!-- End Row -->
+    </div> <!-- End Container-->
+  </div> <!-- End Jumbotron -->
+
+
+
+</div>
+<!-- End of Features Section -->
+
+
+
+<!-- BOMB BRESD AND BUTTER -->
+<!-- <section id="features-2" class="offset ">
+      <div class="fixed-light">
+        <svg width="2500" height="1500">
+          <line x1="0" y1="-100" x2="1800" y2="1800" stroke="blue" stroke-width="400" ></line>
+        </svg>
+      </div>
+</section> -->
+
+
+
+
+<section id="contact">
+  <div class=" m-0 py-5">
+    <div class="col-12 os-animation" data-animation="fadeInUp">
+      <h3 class="heading">Express Interest</h3>
+      <div class="heading-underline"></div>
+    </div>
+
+
+    <form class="form-custom my-5 p-5">
+      <h4 class="form-head">Let's Connect</h4>
+      <p type="Name:"><input class="form-input" placeholder="Write your name here.."></input></p>
+      <p class="form-p" class="form-p" type="Email:"><input class="form-input" placeholder="Let us know how to get back.."></input></p>
+      <p class="form-p"type="Message:"><input class="form-input" placeholder="What would you like to share.."></input></p>
+      <button class="form-b">Send Message</button>
+      <div class="peek-out">
+        <span class="peek fa fa-phone"></span>(917) 727-5506
+        <span class="peek fa fa-envelope"></span> contact@chronogrp.com
+      </div>
+    </form>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   	<!-- Top Scroll -->
