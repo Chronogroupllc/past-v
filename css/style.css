@@ -275,10 +275,15 @@ h3.heading {
 }
 .feature {
   padding-top: 2rem;
+  border-radius: 2rem;
 }
 .feature span {
    color: #1A6EB2;
    margin-bottom: .6rem;
+}
+
+.feature span.br {
+   color: #BF6B1A;
 }
 .feature h4 {
    /* text-transform: uppercase; */
@@ -286,6 +291,10 @@ h3.heading {
    padding-bottom: .4rem;
    font-weight: 900;
 }
+
+/* .feature .fa-circle {
+   margin-left: -10px;
+} */
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
