@@ -260,7 +260,7 @@ button, a, a.btn,
    color: white;
 }
 h3.heading {
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
    font-weight: 700;
    font-size: 1.9rem;
    text-align: center;
@@ -391,12 +391,26 @@ h3.heading {
    z-index: 1000;
 }
 .details {
-  /* height: 100vh;
-  width: 100%;
-  display: table;
-  background-color: rgba(30, 30, 30, .75); */
+}
+
+
+.details p, .details span{
+font-size: 1rem;
+}
+
+.details p {
+  font-weight: 400;
+}
+
+.details .text {
+  /* letter-spacing: .15rem; */
   padding: 0 15%;
 }
+
+.details .social {
+  padding: 0 10%;
+}
+
 
 .owl-stage {
    display: flex;
@@ -413,33 +427,13 @@ h3.heading {
    margin: auto;
 }
 
-.card-body {
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.card:hover {
+
+.card-transparent:hover {
    transform: scale(.9);
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
    background: #1A6EB2!important;
-}
-ul.social {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   font-size: 1.5rem;
-}
-ul.social li {
-   display: inline;
-   padding-right: .8rem;
-}
-ul.social li a {
-   color: #1A6EB2;
-   transition: all .2s ease;
-}
-ul.social li a:hover {
-   color: #505962;
 }
 
 /*============= SKILLS SECTION =============*/
