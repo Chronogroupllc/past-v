@@ -555,7 +555,7 @@ form-head {
 	content: attr(type);
 	display: block;
 	margin: 28px 0 0;
-	font-size: 14px;
+	font-size: 12px;
 	color: #5a5a5a
 }
 
