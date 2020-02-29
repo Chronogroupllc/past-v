@@ -395,11 +395,16 @@ h3.heading {
 
 
 .details p, .details span{
-font-size: 1rem;
+font-size: 1.15rem;
 }
 
 .details p {
-  font-weight: 400;
+  font-weight: 500;
+  margin: 0;
+}
+
+.details span {
+  font-size: 1rem;
 }
 
 .details .text {
@@ -665,7 +670,11 @@ a.top-scroll:hover {
       padding: .6rem 1.1rem;
    } */
    .leftt {
-      padding: 3rem 5rem 0 5rem;
+     padding-top: 3em;
+   }
+
+   .leftt, .heading  {
+      padding: 0 5rem;
    }
    .leftt h1 {
      font-size: 2.5em;
@@ -693,13 +702,23 @@ a.top-scroll:hover {
      padding: .5rem 1rem;
    }
    .leftt {
-     padding: 2rem 3rem 0 3rem;
+     padding-top: 2rem
+   }
+   .leftt, .heading {
+     padding: 0 3rem;
    }
    .leftt h1 {
      font-size: 2.1em;
    }
    .rightt {
      /* padding: 0 3rem; */
+   }
+
+
+
+
+   .details .text {
+     padding: 0;
    }
 
 
