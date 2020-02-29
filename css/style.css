@@ -7,7 +7,9 @@ html {
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 html, body {
    overflow-x: hidden;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Muli', sans-serif;
+   font-weight: 300;
+   font-size: 1rem;
    color: #505962;
 }
 
@@ -52,9 +54,9 @@ html, body {
    height: 4rem;
 }
 .navbar {
-   padding: .7rem 1rem;
+   padding: .7rem 2rem;
    text-transform: uppercase;
-   font-weight: 700;
+   font-weight: 500;
    letter-spacing: .1rem;
    font-size: .9rem;
    transition: background-color .5s ease;
@@ -63,12 +65,12 @@ html, body {
    padding-right: .8rem;
 }
 .navbar-nav .nav-link {
-   color: white;
+   color: black;
    padding-top: .8rem;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-   color: #1A6EB2;
+   color: #BF6B1A;
 }
 .custom-toggler-icon {
    color: #1A6EB2;
@@ -77,8 +79,9 @@ html, body {
 .navbar.solid,
 .navbar.solid-toggle {
   /* mobile navbar toggle hamburger transition HERE */
-   background: rgba(0, 0, 0, .9)!important;
-   transition: background-color 2s ease;
+   background: rgba(255, 255, 255)!important;
+   box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,.2);
+   transition: background-color 1s ease;
 }
 
 /*-- Remove Button Outline --*/
@@ -103,11 +106,11 @@ button, a, a.btn,
 .landing {
 
    width: 100%;
-   height: 100vh;
    /* background-color:#ce3635; */
    display: table;
    z-index: -1;
    padding-top: 6rem;
+   padding-bottom: 6rem;
 }
 
 .landingouter {
@@ -125,18 +128,21 @@ button, a, a.btn,
 
 .leftt {
   /* height: auto; FOR MEDIA QUERY */
-  padding: 5em 0 0 2em;
-  /* background-color: lightblue; */
+  padding-top: 10rem;
 }
 
 .leftt h1 {
-  font-size: 4.5em;
+  font-size: 3em;
   font-weight: 900;
   /* margin: 3em 0 0 1em; */
 }
 
+.leftt p {
+  font-size: 1em;
+}
+
 .rightt {
-  /* background-color: green; */
+  padding-top: 3rem;
 }
 
 
@@ -255,8 +261,8 @@ button, a, a.btn,
    color: white;
 }
 h3.heading {
-   text-transform: uppercase;
-   font-weight: 700;
+   /* text-transform: uppercase; */
+   font-weight: 900;
    font-size: 1.9rem;
    text-align: center;
    margin-bottom: 1.9rem;
@@ -269,16 +275,30 @@ h3.heading {
 }
 .feature {
   padding-top: 2rem;
+  border-radius: 2rem;
 }
 .feature span {
    color: #1A6EB2;
    margin-bottom: .6rem;
 }
-.feature h3 {
-   text-transform: uppercase;
-   font-size: 1.3rem;
-   padding-bottom: .4rem;
+
+.feature span.br {
+   color: #BF6B1A;
 }
+.feature h4 {
+   /* text-transform: uppercase; */
+   font-size: 1.15rem;
+   padding-bottom: .4rem;
+   font-weight: 900;
+}
+
+.feature: hover {
+   transform: scale(.9);
+}
+
+/* .feature .fa-circle {
+   margin-left: -10px;
+} */
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
@@ -386,12 +406,29 @@ h3.heading {
    z-index: 1000;
 }
 .details {
-  /* height: 100vh;
-  width: 100%;
-  display: table;
-  background-color: rgba(30, 30, 30, .75); */
+}
+
+
+.details p{
+font-size: 1.15rem;
+}
+
+.details p {
+  font-weight: 500;
+  margin: 0;
+}
+
+
+
+.details .text {
+  /* letter-spacing: .15rem; */
   padding: 0 15%;
 }
+
+.details .social {
+  padding: 0 10%;
+}
+
 
 .owl-stage {
    display: flex;
@@ -408,33 +445,13 @@ h3.heading {
    margin: auto;
 }
 
-.card-body {
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.card:hover {
+
+.card-transparent:hover {
    transform: scale(.9);
 }
 button.owl-dot.active span,
 button.owl-dot:hover span {
    background: #1A6EB2!important;
-}
-ul.social {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   font-size: 1.5rem;
-}
-ul.social li {
-   display: inline;
-   padding-right: .8rem;
-}
-ul.social li a {
-   color: #1A6EB2;
-   transition: all .2s ease;
-}
-ul.social li a:hover {
-   color: #505962;
 }
 
 /*============= SKILLS SECTION =============*/
@@ -498,15 +515,15 @@ blockquote .svg-inline--fa {
 .form-custom {
 	width: 340px;
 	height: 440px;
-	background: #e6e6e6;
-	border-radius: 8px;
+	background: #fff;
+	border-radius: 3rem;
 	box-shadow: 0 0 40px -10px #000;
-	margin: calc(50vh - 220px) auto;
 	padding: 20px 30px;
 	max-width: calc(100vw - 40px);
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
-	position: relative
+	position: relative;
+  margin: 0 auto;
+
 }
 
 form-head {
@@ -525,7 +542,7 @@ form-head {
 	outline: none;
 	resize: none;
 	border: 0;
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 	transition: all .3s;
 	border-bottom: 2px solid #bebed2
 }
@@ -538,7 +555,7 @@ form-head {
 	content: attr(type);
 	display: block;
 	margin: 28px 0 0;
-	font-size: 14px;
+	font-size: 12px;
 	color: #5a5a5a
 }
 
@@ -546,7 +563,7 @@ form-head {
 	float: right;
 	padding: 8px 12px;
 	margin: 8px 0 0;
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 	border: 2px solid #78788c;
 	background: 0;
 	color: #5a5a6e;
@@ -626,8 +643,8 @@ a.top-scroll:hover {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
-/* @media (max-width: 991.98px) {
-   .caption h1 {
+@media (max-width: 991.98px) {
+   /* .caption h1 {
       font-size: 3.5rem;
       letter-spacing: .2rem;
       padding-bottom: .8rem;
@@ -639,12 +656,21 @@ a.top-scroll:hover {
    .caption .btn-lg {
       padding: .7rem 1.2rem;
       font-size: 1rem;
+   } */
+   .leftt {
+     padding-top: 8rem;
    }
-} */
+   .leftt h1 {
+     font-size: 3em;
+   }
+   .rightt {
+     padding-top: 2.5rem;
+   }
+}
 
 /* Devices under 768px (md) */
-/* @media (max-width: 767.98px) {
-   .caption h1 {
+@media (max-width: 767.98px) {
+   /* .caption h1 {
       font-size: 2.7rem;
       letter-spacing: .15rem;
       padding-bottom: .5rem;
@@ -655,12 +681,25 @@ a.top-scroll:hover {
    }
    .caption .btn-lg {
       padding: .6rem 1.1rem;
+   } */
+   .leftt {
+     padding-top: 3em;
    }
-} */
+
+   .leftt, .heading  {
+      padding: 0 5rem;
+   }
+   .leftt h1 {
+     font-size: 2.5em;
+   }
+   .rightt {
+     padding-top: 2rem;
+   }
+}
 
 /* Devices under 576px (sm) */
-/* @media (max-width: 575.98px) {
-    .caption {
+@media (max-width: 575.98px) {
+    /* .caption {
       top: 42%;
     }
    .caption h1 {
@@ -671,18 +710,32 @@ a.top-scroll:hover {
    .caption h3 {
       font-size: 1.3rem;
       padding-bottom: 1rem;
+   } */
+   .navbar {
+     padding: .5rem 1rem;
    }
-   .caption .btn-lg {
-      padding: .4rem .9rem;
-      font-size: .9rem;
+   .leftt {
+     padding-top: 2rem
    }
-   .landing video{
-     margin-left: -170%;
+   .leftt, .heading {
+     padding: 0 3rem;
    }
-   .row.outer {
-     background-image: linear-gradient(to bottom, rgba(57, 63, 70, .3), rgba(57, 63, 70, 1));
+   .leftt h1 {
+     font-size: 2.1em;
    }
-} */
+   .rightt {
+     /* padding: 0 3rem; */
+   }
+
+
+
+
+   .details .text {
+     padding: 0;
+   }
+
+
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -703,23 +756,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
-/* OG BOILER */
-/* body {
-  text-align: center;
-  color:#fff;
-}
-
-#home {
-  height: 100vh;
-  background-color: #CE3635;
-}
-
-.one, .two {
-  background-color: #73BA9B;
-  padding: 2rem;
-}
-.about {
-  height: 100vh;
-  background-color: #D5F2E3;
-} */
