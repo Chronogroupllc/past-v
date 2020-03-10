@@ -1,20 +1,22 @@
 'use strict';
 
 //grab a form
-const form = document.querySelector('.form-inline');
+const form = document.querySelector('.form-custom');
 
 //grab an input
-const inputEmail = form.querySelector('#inputEmail');
+const inputEmail = form.querySelector('.form-input');
 
 
 //config your firebase push
 const config = {
     apiKey: "AIzaSyCGZBjtbQ05SrT0wpBton2TKh29Q6Gr9Lc",
-    authDomain: "example-9167e.firebaseapp.com",
-    databaseURL: "example-9167e.firebaseio.com",
-    projectId: "example-9167e",
-    storageBucket: "example-9167e.appspot.com",
-    messagingSenderId: "6271234586832"
+   authDomain: "chrono-main.firebaseapp.com",
+   databaseURL: "https://chrono-main.firebaseio.com",
+   projectId: "chrono-main",
+   storageBucket: "chrono-main.appspot.com",
+   messagingSenderId: "63898698136",
+   appId: "1:63898698136:web:4389232ac8fbacf4d9ebed",
+   measurementId: "G-FXHLEQL5YR"
 };
 
 
@@ -26,6 +28,7 @@ const config = {
         //prevents from braking
         if (!firebase.apps.length) {
             firebase.initializeApp(config);
+            firebase.analytics();
         }
 
         //push itself
