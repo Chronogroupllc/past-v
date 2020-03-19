@@ -513,8 +513,10 @@ blockquote .svg-inline--fa {
 /*--- Contact Form --*/
 
 .form-custom {
-	width: 340px;
-	height: 440px;
+	/* width: 340px;
+	height: 440px; */
+  width: 25rem;
+  height: 35rem;
 	background: #fff;
 	border-radius: 3rem;
 	box-shadow: 0 0 40px -10px #000;
@@ -559,6 +561,7 @@ form-head {
 	color: #5a5a5a
 }
 
+/* FORM BUTTON */
 .form-b {
 	float: right;
 	padding: 8px 12px;
@@ -568,12 +571,12 @@ form-head {
 	background: 0;
 	color: #5a5a6e;
 	cursor: pointer;
-	transition: all .3s
+	transition: all .3s;
 }
 
-form-b:hover {
-	background: #78788c;
-	color: #fff
+.form-b:hover {
+	background: #78788;
+	color: #fff;
 }
 
 .peek-out {
@@ -587,37 +590,14 @@ form-b:hover {
 	padding: 16px 4px 16px 0;
 	border-radius: 6px;
 	font-size: 13px;
-	box-shadow: 10px 10px 40px -14px #000
+	box-shadow: 10px 10px 40px -14px #000;
 }
 
 .peek{
-	margin: 0 5px 0 15px
+	margin: 0 5px 0 15px;
+  color: #fff;
 }
 
-
-/*
-.form-group {
-   margin-bottom: 1.3rem;
-}
-.form-control {
-   background-color: #53595f;
-   border-radius: 0;
-   border: .15rem solid #666b71;
-   color: white!important;
-   font-size: 1.1rem;
-}
-.form-control:focus {
-   background-color: #53595f;
-   border: .15rem solid #666b71;
-}
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-   color: #b2b5b8!important;
-}
-hr.socket {
-   border-top: .2rem solid #666b71;
-   width: 100%;
-} */
 
 /*============= TOP SCROLL =============*/
 
@@ -727,11 +707,12 @@ a.top-scroll:hover {
      /* padding: 0 3rem; */
    }
 
-
-
-
    .details .text {
      padding: 0;
+   }
+
+   .peek-out {
+     right: -.5rem;
    }
 
 
