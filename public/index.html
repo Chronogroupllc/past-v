@@ -360,29 +360,31 @@
 
       <p class="form-p" type="Name:">
         <input
-          type="Name:"
+          type="text"
           name="Name"
           id="userName"
+          autocomplete="off"
           class="form-input"
-          placeholder="Write your name here..">
+          placeholder="Write your name here...">
         </input>
       </p>
 
       <p class="form-p" type="Email:">
         <input
-          type="Email:"
+          type="text"
           name="Email"
           id="userEmail"
+          autocomplete="off"
           class="form-input"
-          placeholder="Let us know how to get back..">
+          placeholder="How can we get back...">
         </input>
       </p>
 
       <p class="form-p" type="Message:">
-        <textarea name="Message" id="userMessage" class="form-input" placeholder="What would you like to share.."></textarea>
+        <textarea name="Message" id="userMessage" rows="3"class="form-input" placeholder="Share your thoughts..."></textarea>
       </p>
 
-      <button id="submit" class="form-b" onclick="save_user();" >Send Message</button>
+      <button id="submit" class="form-b" >Send Message</button>
       <div class="peek-out">
         <span class="peek fa fa-phone"></span>(917) 727-5506
         <span class="peek fa fa-envelope"></span> contact@chronogrp.com
